@@ -37,9 +37,10 @@ devices. These dashboards include 4 different levels:
   ![Side Navigation](images/widget_resources.png "Event Feed")
    
 2) **Customer Dashboard:** Provides a view of all monitored devices that are being reported from a specific gateway.
+    
     - Customer Overview: Provides a breakdown of all device types and their health for a **specific customer**. Each type will be represented by a circular chart. 
 
-    ![Side Navigation](images/widget_customer_overview.png "Customer Overview")
+![Side Navigation](images/widget_customer_overview.png "Customer Overview")
    
    For guidance on how health is defined, please see topic [Defining Health](#defining-health)
   
@@ -113,9 +114,10 @@ Example: Throw an error severity event if GATEWAYABC:Server-XYZ has RAM Utilizat
 
 3\. **Outage Events** An outage event is when there is no received telemetry for a device over a specified amount of time. These alerts/events apply to an entire category of monitored assets (i.e. Servers, IP Devices, Cameras, etc...) This is meant to act as an alerting mechanism from the xConnect platform. 
 
-    !!! note
-        By default, xConnect will consider any telemetry outage beyond 60 minutes as a warning event, which will cause your 
-        device to be flagged as "bad" health. The Outage Event configurations are meant as the alerting mechanism of these occurrences. 
-        The alerting mechanism is separate from the built-in telemetry received events.
+**NOTE:**
+
+       By default, xConnect will consider any telemetry outage beyond 60 minutes as a warning event, which will cause your 
+       device to be flagged as "bad" health. The Outage Event configurations are meant as the alerting mechanism of these occurrences. 
+       The alerting mechanism is separate from the built-in telemetry received events.
 
 Example: An e-mail should be sent when any server has not sent telemetry for 60 minutes. 

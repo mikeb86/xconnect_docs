@@ -4,9 +4,12 @@ Any customers added will appear in the left-side menu:
 
 ![Side Navigation](images/menu_customers.png "Account Overview")
 
-    !!! note
+**NOTE:**
+
         Only power users will be able to access the functionality listed below.
         If you are an end user, you will not be able to see the settings menu. 
+
+
 
 # Adding or Updating a Customer
 1\. Log in as a power user
@@ -24,9 +27,10 @@ Any customers added will appear in the left-side menu:
 
 ![Side Navigation](images/customer_entry.png "Customer Entry")
 
-    !!! note
-        You do not need to change any of the URLs for the images. 
-        These features are currently deprecated and will be removed in a future release. 
+**NOTE:**
+
+       You do not need to change any of the URLs for the images. 
+       These features are currently deprecated and will be removed in a future release. 
 
 # Disabling and Reactivating a Customer
 Disabling a customer will remove them from appearing in the side menu, and will remove the associated gateways from the monitoring dashboards.
