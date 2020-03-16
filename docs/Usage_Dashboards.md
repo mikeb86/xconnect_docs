@@ -1,3 +1,4 @@
+#Dashboards 
 xConnect features intuitive dashboards that enable you to review the current status of your ecosystem across all of your security-related systems. 
 
 The web client dashboard can be accessed by going to https://www.senecaxconnect.com
@@ -114,10 +115,9 @@ Example: Throw an error severity event if GATEWAYABC:Server-XYZ has RAM Utilizat
 
 3\. **Outage Events** An outage event is when there is no received telemetry for a device over a specified amount of time. These alerts/events apply to an entire category of monitored assets (i.e. Servers, IP Devices, Cameras, etc...) This is meant to act as an alerting mechanism from the xConnect platform. 
 
-**NOTE:**
-
-       By default, xConnect will consider any telemetry outage beyond 60 minutes as a warning event, which will cause your 
-       device to be flagged as "bad" health. The Outage Event configurations are meant as the alerting mechanism of these occurrences. 
-       The alerting mechanism is separate from the built-in telemetry received events.
+### Additional Notes:
+By default, xConnect will consider any telemetry outage beyond 60 minutes as a warning event, which will cause your 
+device to be flagged as "bad" health. The Outage Event configurations are meant as the alerting mechanism of these occurrences. 
+The alerting mechanism is separate from the built-in telemetry received events.
 
 Example: An e-mail should be sent when any server has not sent telemetry for 60 minutes. 

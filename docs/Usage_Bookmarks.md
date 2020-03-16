@@ -1,7 +1,8 @@
+# Bookmarks
 Bookmarks are a marker that can be placed on any customer, gateway, server or device that will make it appear on the Bookmarks menu. 
 This can be completely customized and managed by the **power user**. Bookmarks are visible across **all** users of the account, **end users** cannot remove or add bookmarks.
 
-# Accessing Bookmarks
+## Accessing Bookmarks
 You can access bookmarks by clicking the bookmark icon on the left-side menu:
 
 ![Side Navigation](images/menu_bookmarks.png "Bookmarks")
@@ -10,7 +11,7 @@ Once there you will see a complete list of your bookmarked assets. Upon clicking
 
 ![Side Navigation](images/bookmarks_menu.png "Bookmarks")
 
-# Adding or Removing a Bookmark
+## Adding or Removing a Bookmark
 You can add or remove a bookmark by going to left-side menu, and clicking the ![Side Navigation](images/navigation_edit.png "Bookmarks")  edit icon
 
 ![Side Navigation](images/menu_bookmarks_edit.png "Bookmarks")

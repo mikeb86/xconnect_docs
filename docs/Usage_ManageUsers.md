@@ -1,5 +1,6 @@
-Power users have the ability to add, remove or modify existing users on their xConnect instance. End users can be associated with a specific customer which will show that customer's dashboard to the end user upon login.
 # Manage Users
+Power users have the ability to add, remove or modify existing users on their xConnect instance. End users can be associated with a specific customer which will show that customer's dashboard to the end user upon login.
+
 You can access the manage users by going to the settings tab, and clicking "Manage Users". Once there you can 
 
 1\. Log in as a power user

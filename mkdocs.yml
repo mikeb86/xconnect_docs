@@ -21,6 +21,7 @@ nav:
        - Step 3 - Web Dashboard: Dashboard_Setup.md
     - Usage Guide:
         - Dashboards: Usage_Dashboards.md
+        - Side Navigation: Usage_SideNav.md
         - Bookmarks: Usage_Bookmarks.md
         - User Types: Usage_Roles.md
         - Management:

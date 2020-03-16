@@ -1,8 +1,9 @@
+# Roles & Permissions
 xConnect currently supports 2 user roles - Power Users and End Users. User types can be assigned by leveraging the [Manage Users](https://senecaxconnect.github.io/xconnect_docs/Usage_ManageUsers/) interface.
 **Power users** have access to the management functionality of the xConnect portal, can modify bookmarks and manage location details for gateways and servers. 
 **End users** are limited users that have a read only view of the dashboards.
 
-# Permissions Matrix
+## Permissions Matrix
 | Permission        | Power Users           | End Users  |
 | :------------- |:-------------:| :-----:|
 | Modify Bookmarks     | ![Side Navigation](images/icon_checkmark.png "") | ![Side Navigation](images/icon_cross.png "") |
